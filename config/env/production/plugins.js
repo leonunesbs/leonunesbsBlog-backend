@@ -9,5 +9,16 @@ module.exports = ({ env })=>({
         Bucket: 'leonunesbs-blog',
       },
     }
-  }
+  },
+  email: {
+    provider: 'sendgrid',
+    providerOptions: {
+      apiKey: env('SENDGRID_API_KEY'),
+    },
+    settings: {
+      defaultFrom: 'leonunesbs@gmail.com',
+      defaultReplyTo: 'leonunesbs@gmail.com',
+      testAddress: 'leonunesbs@gmail.com',
+    },
+  },
 });
