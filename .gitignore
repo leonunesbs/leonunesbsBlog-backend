@@ -229,3 +229,5 @@ results
 testApp
 
 # End of https://www.toptal.com/developers/gitignore/api/strapi,react,node
+
+package-lock.json
