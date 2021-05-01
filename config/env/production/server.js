@@ -1,4 +1,4 @@
-const forgotPasswordTemplate = require('./email-templates/forgot-password');
+const forgotPasswordTemplate = require('../../email-templates/forgot-password');
 
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
