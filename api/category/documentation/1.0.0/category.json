@@ -597,6 +597,9 @@
                 }
               }
             }
+          },
+          "position": {
+            "type": "integer"
           }
         }
       },
@@ -617,6 +620,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "position": {
+            "type": "integer"
           },
           "created_by": {
             "type": "string"
