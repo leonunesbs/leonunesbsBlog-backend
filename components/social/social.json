@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "name": "item",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
