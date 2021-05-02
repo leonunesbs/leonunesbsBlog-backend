@@ -26,10 +26,8 @@
     },
     "position": {
       "type": "integer",
-      "default": 1,
-      "required": true,
-      "min": 1,
-      "max": 15
+      "default": 0,
+      "required": true
     }
   }
 }
