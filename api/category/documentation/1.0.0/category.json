@@ -520,7 +520,8 @@
         "required": [
           "id",
           "name",
-          "slug"
+          "slug",
+          "position"
         ],
         "properties": {
           "id": {
@@ -597,13 +598,18 @@
                 }
               }
             }
+          },
+          "position": {
+            "type": "integer",
+            "default": 1
           }
         }
       },
       "NewCategory": {
         "required": [
           "name",
-          "slug"
+          "slug",
+          "position"
         ],
         "properties": {
           "name": {
@@ -617,6 +623,10 @@
             "items": {
               "type": "string"
             }
+          },
+          "position": {
+            "type": "integer",
+            "default": 1
           },
           "created_by": {
             "type": "string"
