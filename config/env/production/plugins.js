@@ -8,6 +8,7 @@ module.exports = ({ env })=>({
       params: {
         Bucket: 'leonunesbs-blog',
       },
+      maxage: 300000
     }
   },
   email: {
