@@ -25,9 +25,7 @@
       "collection": "article"
     },
     "position": {
-      "type": "integer",
-      "default": 0,
-      "required": true
+      "type": "integer"
     }
   }
 }

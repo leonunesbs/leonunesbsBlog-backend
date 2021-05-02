@@ -600,8 +600,7 @@
             }
           },
           "position": {
-            "type": "integer",
-            "default": 0
+            "type": "integer"
           }
         }
       },
@@ -625,8 +624,7 @@
             }
           },
           "position": {
-            "type": "integer",
-            "default": 0
+            "type": "integer"
           },
           "created_by": {
             "type": "string"
