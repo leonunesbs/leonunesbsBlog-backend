@@ -559,7 +559,8 @@
             "required": [
               "id",
               "name",
-              "slug"
+              "slug",
+              "position"
             ],
             "properties": {
               "id": {

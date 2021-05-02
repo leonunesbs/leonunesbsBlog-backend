@@ -4468,7 +4468,8 @@
             "required": [
               "id",
               "name",
-              "slug"
+              "slug",
+              "position"
             ],
             "properties": {
               "id": {
@@ -4727,7 +4728,8 @@
         "required": [
           "id",
           "name",
-          "slug"
+          "slug",
+          "position"
         ],
         "properties": {
           "id": {
@@ -4813,7 +4815,8 @@
       "NewCategory": {
         "required": [
           "name",
-          "slug"
+          "slug",
+          "position"
         ],
         "properties": {
           "name": {
