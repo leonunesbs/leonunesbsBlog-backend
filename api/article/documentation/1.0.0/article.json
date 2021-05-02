@@ -559,7 +559,8 @@
             "required": [
               "id",
               "name",
-              "slug"
+              "slug",
+              "position"
             ],
             "properties": {
               "id": {
@@ -576,6 +577,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "position": {
+                "type": "integer"
               },
               "created_by": {
                 "type": "string"
