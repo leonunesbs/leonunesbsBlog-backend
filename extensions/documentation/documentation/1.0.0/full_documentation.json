@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "05/02/2021 3:21:32 PM"
+    "x-generation-date": "05/03/2021 12:47:38 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4594,75 +4594,6 @@
                 "type": "string"
               }
             }
-          },
-          "localizations": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "title",
-                "description",
-                "content",
-                "publishedAt",
-                "status",
-                "slug",
-                "image"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "content": {
-                  "type": "string"
-                },
-                "publishedAt": {
-                  "type": "string"
-                },
-                "status": {
-                  "type": "string",
-                  "enum": [
-                    "draft",
-                    "published"
-                  ]
-                },
-                "slug": {
-                  "type": "uid"
-                },
-                "category": {
-                  "type": "string"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "author": {
-                  "type": "string"
-                },
-                "localizations": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "locale": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "locale": {
-            "type": "string"
           }
         }
       },
@@ -4704,15 +4635,6 @@
             "type": "string"
           },
           "author": {
-            "type": "string"
-          },
-          "localizations": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "locale": {
             "type": "string"
           },
           "created_by": {
@@ -4785,15 +4707,6 @@
                   "type": "string"
                 },
                 "author": {
-                  "type": "string"
-                },
-                "localizations": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "locale": {
                   "type": "string"
                 },
                 "created_by": {
@@ -5500,15 +5413,6 @@
                   "type": "string"
                 },
                 "author": {
-                  "type": "string"
-                },
-                "localizations": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "locale": {
                   "type": "string"
                 },
                 "created_by": {
