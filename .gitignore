@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/strapi,react,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=strapi,react,node
+# Created by https://www.toptal.com/developers/gitignore/api/strapi,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=strapi,node
 
 ### Node ###
 # Logs
@@ -128,19 +128,6 @@ dist/
 tmp/
 temp/
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
-
-node_modules
-
-*.sublime*
-
-psd
-thumb
-sketch
-
 ### Strapi ###
 
 license.txt
@@ -222,12 +209,11 @@ public/uploads/*
 
 lcov.info
 results
+node_modules
 .node_history
 
 # Tests
 
 testApp
 
-# End of https://www.toptal.com/developers/gitignore/api/strapi,react,node
-
-package-lock.json
+# End of https://www.toptal.com/developers/gitignore/api/strapi,node
