@@ -1,8 +1,8 @@
 {
   "collectionName": "components_social_socials",
   "info": {
-    "name": "item",
-    "icon": "ad",
+    "name": "SocialModelComponent",
+    "icon": "address-book",
     "description": ""
   },
   "options": {},

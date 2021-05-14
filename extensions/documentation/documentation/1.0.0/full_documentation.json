@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "05/03/2021 10:07:04 PM"
+    "x-generation-date": "05/14/2021 9:33:05 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4917,6 +4917,26 @@
                 }
               }
             }
+          },
+          "social": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -5011,6 +5031,26 @@
                   "updated_by": {
                     "type": "string"
                   }
+                }
+              }
+            }
+          },
+          "social": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
                 }
               }
             }
@@ -5132,26 +5172,6 @@
                 "type": "string"
               }
             }
-          },
-          "socials": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                }
-              }
-            }
           }
         }
       },
@@ -5258,26 +5278,6 @@
               },
               "title": {
                 "type": "string"
-              }
-            }
-          },
-          "socials": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                }
               }
             }
           },

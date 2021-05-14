@@ -419,26 +419,6 @@
                 "type": "string"
               }
             }
-          },
-          "socials": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                }
-              }
-            }
           }
         }
       },
@@ -545,26 +525,6 @@
               },
               "title": {
                 "type": "string"
-              }
-            }
-          },
-          "socials": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                }
               }
             }
           },

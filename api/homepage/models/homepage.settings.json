@@ -21,11 +21,6 @@
       "repeatable": false,
       "component": "sections.hero",
       "required": true
-    },
-    "socials": {
-      "type": "component",
-      "repeatable": true,
-      "component": "social.social"
     }
   }
 }
