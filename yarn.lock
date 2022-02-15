@@ -10708,17 +10708,17 @@ strapi-plugin-i18n@3.6.2:
     pluralize "8.0.0"
     strapi-utils "3.6.2"
 
-strapi-plugin-upload@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.6.2.tgz#602c9afc19c04efb8068a82eee67ed4c79c55522"
-  integrity sha512-cyvREiuxF5Wql1ojWfsR3xWfVBA0UrgLxq5HSGwEagSt3+IV8ZzEBIDPduj47e5XuHuuh9nYD7VXnBnRZJCD7Q==
+strapi-plugin-upload@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.6.8.tgz#5bc02fb299ccc62a909b273b2f51aedf607c7032"
+  integrity sha512-uVNwtJP7yMqSn02VG7zuECRqdRWQyaZ9G9Wac/+p3GyPXAnzTiitBNMWgWnkZFO/LAulrSvIF2w3IMBIrJfIpw==
   dependencies:
-    "@buffetjs/core" "3.3.6"
-    "@buffetjs/custom" "3.3.6"
-    "@buffetjs/hooks" "3.3.6"
-    "@buffetjs/icons" "3.3.6"
-    "@buffetjs/styles" "3.3.6"
-    "@buffetjs/utils" "3.3.6"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     byte-size "^7.0.1"
     cropperjs "^1.5.11"
     immer "^8.0.1"
@@ -10737,9 +10737,9 @@ strapi-plugin-upload@3.6.2:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.28.1"
-    strapi-helper-plugin "3.6.2"
-    strapi-provider-upload-local "3.6.2"
-    strapi-utils "3.6.2"
+    strapi-helper-plugin "3.6.8"
+    strapi-provider-upload-local "3.6.8"
+    strapi-utils "3.6.8"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -10799,10 +10799,10 @@ strapi-provider-upload-aws-s3@3.6.2:
     aws-sdk "2.892.0"
     lodash "4.17.21"
 
-strapi-provider-upload-local@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.2.tgz#a4345ffffef4a4e57ea8223e9fd3c5c034f398fb"
-  integrity sha512-0WKnz2EKiNCOO+Zq7+t7l5GMlzuiy6yfGfC19b1ONL9egfSkEtW8luMdFugZcYaxIBJUyzWEUT+Nql8XY/4isw==
+strapi-provider-upload-local@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.8.tgz#4666269e96f2ae878f366ae091d09ea69fb0237b"
+  integrity sha512-GkedrjO+T4DN649Ak0SMSS5Vdta0AoZRt9+IWLO9TGLZ7hjtIjnB60kGf0fQKspIhbS7DUqtwuzQAXTd8fXJOg==
 
 strapi-utils@3.6.2:
   version "3.6.2"
